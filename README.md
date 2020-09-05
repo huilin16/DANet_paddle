@@ -7,7 +7,7 @@ cityscapesscripts文件夹为数据集处理代码，danet文件夹为基于padd
 
 源项目链接：https://aistudio.baidu.com/aistudio/projectdetail/787016<br><br>
 
-在使用paddle复现过程中，由于个人能力有限，复现主要内容及改动部分如下：<br>
+在使用paddle复现过程中，由于个人能力有限，复现j具体内容及改动部分如下：<br>
 <br>
 * 数据预处理<br>
 	* 使用Cityscapes-gtFine数据集，以8：2比例划分train、val（test）数据集<br>
@@ -40,4 +40,4 @@ cityscapesscripts文件夹为数据集处理代码，danet文件夹为基于padd
 <br>
 由于对网络进行了一些魔改，加上只进行了2次30epoch的训练，最终结果相较于论文有一定差距<br>
 <br>
-因此，本复现结果只是对danet网络认识提供一种参考，希望大家可以一起交流学习<br>
+本复现结果只是对danet网络认识提供一种参考，希望大家可以一起交流学习<br>
